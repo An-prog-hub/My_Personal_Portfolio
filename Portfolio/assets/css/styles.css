@@ -294,6 +294,9 @@ img{
 .skills__css{
   width: 85%;
 }
+.skills__node {
+  width: 52%;
+}
 .skills__js{
   width: 65%;
 }
@@ -301,14 +304,24 @@ img{
   width: 85%;
 }
 .skills__terminal{
-  width: 76%;
+  width: 68%;
 }
 .skills__react {
-  width: 45%;
+  width: 76%;
 }
 .skills__python {
   width: 64%;
 }
+.skills__cpp {
+  width: 46%;
+}
+.skills__md {
+  width: 68%;
+}
+.skills__firebase {
+  width: 48%;
+}
+
 .skills__img{
   border-radius: .5rem;
 }
@@ -460,4 +473,96 @@ img{
 
 p {
   font-family: "Poppins", sans-serif;
+}
+
+/* ===== CONTACT =====*/
+.contact__input {
+  width: 100%;
+  font-size: var(--normal-font-size);
+  font-weight: var(--font-semi);
+  padding: 1rem;
+  border-radius: 0.5rem;
+  border: 1.5px solid var(--second-color);
+  outline: none;
+  margin-bottom: var(--mb-4);
+}
+.contact__button {
+  display: block;
+  border: none;
+  outline: none;
+  font-size: var(--normal-font-size);
+  cursor: pointer;
+  margin-left: auto;
+}
+#contact {
+  padding: 50px 15px;
+  background: #3498db;
+  text-align: center;
+}
+#contact h2 {
+  margin: 0 0 15px 0;
+  color: #fff;
+  font-weight: 500;
+}
+#contact-form {
+  max-width: 500px;
+  margin: 0 auto;
+}
+#contact-form input,
+#contact-form textarea {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  border-radius: 4px;
+  border: none;
+  margin-bottom: 10px;
+  background: #1d6fa5;
+  color: #fff;
+  transition: 0.5s ease all;
+  font-family: "Poppins", sans-serif;
+}
+#contact-form input::-webkit-input-placeholder,
+#contact-form textarea::-webkit-input-placeholder {
+  color: #fff;
+}
+#contact-form input:-moz-placeholder,
+#contact-form textarea:-moz-placeholder {
+  color: #fff;
+  opacity: 1;
+}
+#contact-form input::-moz-placeholder,
+#contact-form textarea::-moz-placeholder {
+  color: #fff;
+  opacity: 1;
+}
+#contact-form input:-ms-input-placeholder,
+#contact-form textarea:-ms-input-placeholder {
+  color: #fff;
+}
+#contact-form input:focus,
+#contact-form textarea:focus {
+  outline: none;
+  background: #16527a;
+}
+#contact-form textarea {
+  height: 150px;
+  resize: none;
+  font-family: "Poppins", sans-serif;
+}
+#contact-form button {
+  display: block;
+  width: 100%;
+  background: #fff;
+  border-radius: 4px;
+  padding: 5px 10px;
+  border: none;
+  color: #3498db;
+  font-weight: 700;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+  transition: 0.5s ease all;
+  cursor: pointer;
+  font-family: "Poppins", sans-serif;
+}
+#contact-form button:hover {
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
 }
